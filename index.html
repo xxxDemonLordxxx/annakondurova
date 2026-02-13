@@ -16,13 +16,18 @@
 
 <style>
 .image {
-   height: 20rem
+   height: 20rem;
+   flex: 0 0 100%;
+   scroll-snap-align: center;
 }
 
 .image-container {
     height: 10rem;
     width:20rem;
     overflow: scroll;
-    margin: auto
+    margin: auto;
+    display: flex;
+    gap: 4vw;
+    scroll-snap-type: x mandatory;
 }
 </style>
